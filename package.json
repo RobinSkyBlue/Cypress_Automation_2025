@@ -1,0 +1,23 @@
+{
+  "name": "cypress_automation_2025",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "braveTestHeadless": "npx cypress run --browser chrome --spec 'cypress/e2e/Day_01/braveTestHeadless.cy.js'",
+    "braveTestLoop": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Day_02/brave-search-loop.cy.js'",
+    "UPSTest": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/ActionItems/Ups.cy.js'"
+    },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.5.4",
+    "cypress-real-events": "^1.15.0",
+    "cypress-xpath": "^2.0.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "mochawesome": "^7.1.4"
+  }
+}
