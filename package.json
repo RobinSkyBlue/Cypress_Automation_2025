@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "braveTestHeadless": "npx cypress run --browser chrome --spec 'cypress/e2e/Day_01/braveTestHeadless.cy.js'",
+    "braveHeadlessTest": "npx cypress run --browser chrome --spec 'cypress/e2e/Day_01/braveTest.cy.js'",
     "braveTestLoop": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Day_02/brave-search-loop.cy.js'",
     "UPSTest": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/ActionItems/Ups.cy.js'"
     },
